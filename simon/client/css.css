@@ -1,0 +1,97 @@
+body{
+    display: inline;
+}
+#circ {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    float: none;
+    margin: 0 auto;
+    position: absolute;
+    border-style: solid;  
+    border-width: 20px; 
+    background-color: black;
+   
+}
+.color{
+    position: absolute;
+    width :48%;
+    height : 48%;
+    border-style: solid;
+ 
+}
+.green{
+    border-bottom-right-radius : 100%;  
+    background-color: green;
+    bottom: 0;
+    right:0; 
+   
+}
+.red{
+    border-bottom-left-radius : 100%;  
+    background-color: red;
+    bottom: 0;
+  
+}
+.yellow{
+    border-top-left-radius : 100%;  
+    background-color: yellow;
+    bottom: 0;
+    top: 0;  
+}
+.blue{
+    border-top-right-radius : 100%;  
+    background-color: blue;
+    bottom: 0;
+    right: 0;  
+    top:0;
+}
+#control{
+    position: absolute;    
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    top:30%;
+    left:30%;
+    z-index: 1;
+    border-style: solid;
+    border-radius: 50%;
+}
+#level{
+    position: absolute;
+    width:auto;
+    height: 50px;
+    background-color: black;
+    float: none;
+    margin: 0 auto;
+    top: 35%;
+     left: 35%;    
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    
+}
+#levelnumber{
+    color: white;
+    border-top: solid;
+    border-color: white;
+}
+.start{
+    width:40px;
+    height: 40px;
+    top: 10%;
+    left: 40%; 
+}
+#cover{
+    
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    float: none;
+    margin: 0 auto;
+    position: absolute;
+    border-style: solid;  
+    border-width: 20px; 
+    z-index: 20;
+
+}
