@@ -1,4 +1,5 @@
 # Simon-Game-In-Arabic
-Html+CSS+Js+NodeJs
+
+Html+CSS+Js+jquery+NodeJs
 
 *)npm install and npm start . 
